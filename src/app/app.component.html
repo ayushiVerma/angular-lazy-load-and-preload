@@ -1,0 +1,29 @@
+<div class="content" role="main">
+
+    <div class="card highlight-card card-small">
+        <span>{{ title }} app is running!</span>
+    </div>
+
+
+
+    <a [routerLink]="[ '/users' ]">CLICK FOR LAZING LOADING</a>
+
+    <br>
+    <br>
+    <br>
+
+    <a [routerLink]="[ '/teachers' ]">TEACHERS</a>
+
+    <!-- <button class="primary-btn">
+      <a [routerLink]="[ '/users' ]">CLICK FOR LAZING LOADING</a>
+    </button> -->
+
+    <!-- <button class="primary-btn">
+      <a href="/users" [routerLink]="[ '/users' ]">CLICK FOR LAZING LOADING</a>
+    </button>
+
+    <button class="primary-btn">
+      <a (click)="navigateToTeachers()">CLICK FOR LAZING LOADING</a>
+    </button> -->
+</div>
+<router-outlet></router-outlet>
